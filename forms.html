@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form</title>
+    <style>
+        body{
+            color: gray;
+            background-color:lightgray;
+            
+            
+        }
+        fieldset{
+            color:darkslategray
+            
+        }
+        legend{
+            background-color: darkgray;
+            font-style: whitesmoke;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Registration</legend><br>
+            <label for="Name">Name:</label>
+            <input type="text" name="Name" id="Name" placeholder="Enter your Name"><br><br>
+            <label for="email">Email:</label>
+            <input type="Email" name="Email" id="email" placeholder="Enter your Email"><br><br>
+            <label for="pass">Password:</label>
+            <input type="password" name="password" id="pass" placeholder="Enter your password"><br><br>
+            <label for="phno">Phone Number:</label>
+            <input type="Number" name="Number" id="Phno" placeholder="Enter your Number"><br><br>
+            Gender:
+            <label for="m">Male</label>
+            <input type="radio" name="gender" value="male" id="m">
+            <label for="f">Female</label>
+            <input type="radio" name="gender" value="Female" id="f"><br><br>
+            <label for="dob">DOB</label>
+            <input type="date" name="dob" id="dob"><br><br>
+            Course you want to learn:<br><br>
+            <input type="checkbox" name="html" id="html"
+            <label for="html">HTML</label><br>
+            <input type="checkbox" name="css" id="css"
+            <label for="css">CSS</label><br>
+            <input type="checkbox" name="js" id="js"
+            <label for="js">JAVASCRIPT</label><br>
+            <input type="checkbox" name="react" id="react"
+            <label for="react">REACT</label><br><br>
+            Select Course:
+            <select name="course" id="">
+                <optgroup label="Frontend Developer">
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">JAVASCRIPT</option>
+                    <option value="react">REACT</option>
+                    <option value="angular">ANGULAR</option>
+                </optgroup>
+                <optgroup label="Backend Developer">
+                    <option value="python">PYTHON</option>
+                    <option value="php">PHP</option>
+                    <option value="ruby">RUBY</option>
+                    <option value="database">DATABASE</option>
+                    <option value="fw">FRAMEWORK</option>
+                </optgroup>
+            </select><br><br>
+            <label for="sign">Upload File:</label>
+            <input type="file" id="sign" name="file"><br><br>
+            <label for="url">Enter Link</label>
+            <input type="url" id="url" name="url" placeholder=" Send link"><br><br>
+            <label for="reset">Reset</label>
+            <input type="reset" name="reset" id="reset">
+            <label for="submit">Submit</label>
+            <input type="submit" name="submit" id="submit">
+            
+            
+           
+            
+        </fieldset>
+    </form>
+</body>
+</html>
